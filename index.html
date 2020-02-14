@@ -29,14 +29,17 @@
 <img src="pics/dot.png" alt="dot">&nbsp;<a href="http://www.hampsterdance.com/classics/originaldance.htm">Hampster Dance</a><br>
 
 
-<div id="signup" class="heading2"><h2>Sign Up!</h2></div>
+<div id="signup" class="heading2">Sign Up!</div>
 <form id="sign-up-form">
 
 <p>
-  <span id="name">Name:</span>  <input name="fn" type="text" size="10" id="fn"> <input name="mi" type="text" size="1" id="mi">. <input name="ln" type="text" size="10" id="ln"><br>
+  <span id="name">Name:</span>  
+<label for="Fist Name"><input name="fn" type="text" size="10" id="fn"></label>
+<label for="Middle Name initial"><input name="mi" type="text" size="1" id="mi"></label>.
+<label for="Last Name"><input name="ln" type="text" size="10" id="ln"></label><br>
 </p>
 <p>
-  <span id="email">Email:</span> <input id="em" name="em" type="text" size="20">
+  <span id="email">Email:</span> <label for="Email Address"><input id="em" name="em" type="text" size="20"></label>
 </p>
 <p>
   <span id="spamtext">Would you like to receive occassional emails with offers from us?</span>
@@ -47,10 +50,11 @@
 </p>
 <p>
   Comments:<br>
-  <textarea rows="5" cols="40"></textarea>
+  <label for="Comments"><textarea rows="5" cols="40"></textarea></label>
 </p>
  <input type="button" value="Sign Up!" id="signupbutton">
 </form>
+
 
 </div><!-- end div.container -->
 </body>
