@@ -44,6 +44,10 @@ a {
   top: -100px;
 }
 
+track {
+  font-size:0.8em;
+}
+
 .error {
   color: red;
 }
