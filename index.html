@@ -35,9 +35,23 @@
 </p>
 <p>
   <span id="spamtext">Would you like to receive occassional emails with offers from us?</span>
-  <div id="receivespambutton">
-    <img src="pics/checked.png" alt="checkbox">
+  <div role="checkbox"
+           aria-checked="false"
+           tabindex="0">
+        Yes, I would like to.
   </div>
+  <script type="text/javascript">
+    window.onload = function () {
+  
+      var checkboxes = document.querySelectorAll('[role="checkbox"]');
+  
+      for (var i = 0; i < checkboxes.length; i++) {
+        var cb = new Checkbox(checkboxes[i]);
+        cb.init();
+      }
+  
+    };
+  </script>
   <input type="hidden" name="spamyn" id="spamyn" value="n">
 </p>
 <p>
