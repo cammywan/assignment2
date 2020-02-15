@@ -34,9 +34,11 @@ a {
   font-size: 1px;
 }
 
+/*
 .navigation a {
   outline: none;
 }
+*/
 
 #videoplayer {
   text-align: center;
