@@ -38,10 +38,12 @@
 </p>
 <p>
   <span id="spamtext">Would you like to receive occassional emails with offers from us?</span>
-  <div role="checkbox"
-           aria-checked="false"
-           tabindex="0">
-        Yes, I would like to.
+  <div role="group" aria-labelledby="id-group-label">
+    <ul class="checkboxes">
+      <li>
+        <div role="checkbox" aria-checked="false" tabindex="0">Yes, I would like to.</div>
+      </li>
+    </ul>
   </div>
   <script type="text/javascript">
     window.onload = function () {
@@ -55,6 +57,7 @@
   
     };
   </script>
+
   <input type="hidden" name="spamyn" id="spamyn" value="n">
 </p>
 <p>
