@@ -31,19 +31,7 @@ a {
 
 .offscreen {
   top: -1000px;
-  font-size: 1px;
-}
-
-/*
-.navigation a {
-  outline: none;
-}
-*/
-
-#videoplayer {
-  text-align: center;
-  position: relative;
-  top: -100px;
+  font-size: 10px;
 }
 
 
@@ -58,7 +46,7 @@ a {
 }
 
 
-/*this below is css for  the checkbox*/
+/*this below is css for  the checkbox, and is copied from the w3c website*/
 ul.checkboxes {
   list-style: none;
   margin-left: 0;
